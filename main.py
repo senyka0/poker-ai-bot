@@ -65,6 +65,7 @@ while True:
         move = response.choices[0].message.content.lower()
         print(move)
 
+         # Adjust hotkeye !
         if move in "fold":
             pyautogui.hotkey('ctrl', 'left')
         elif move in "check/call":
