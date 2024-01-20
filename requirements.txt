@@ -1,0 +1,8 @@
+openai
+base64
+numpy
+os
+time
+cv2
+pyautogui
+matplotlib
